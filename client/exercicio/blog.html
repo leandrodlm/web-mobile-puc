@@ -1,79 +1,70 @@
 <!doctype html>
 <html>
   <head>
-    <title>WebMobile2016</title>
+    <title>Blog Exercício</title>
     <meta charset="utf-8" />
+    <style>
+      #header {
+        width: 300px;
+        float: left;
+        border: 1px solid red;
+      }
+      #menu {
+        float: right;
+        margin-right: 20%;
+      }
+      #artigo {
+        width: 80%;
+      }
+      .clear {
+        clear: both;
+      }
+      .imagens {
+        width: 300px;
+      }
+      h3 {
+        align-content: center;
+      }
+      article {
+        border: 1px solid red;
+      }
+      aside {
+        float: left;
+        border: 1px solid red;
+        width: 20%;
+      }
+    </style>
   </head>
+
   <body>
-    <table border="1" align="center" width="800">
-        <tr>
-          <td>
-            <img src="imagens/logo.png" width="200" />
-          </td>
-          <td align="right">
-            <a href="blog.html">Home</a> |
-            <a href="quem-somos.html">Quem Somos</a> |
-            <a href="contato.html">Contato</a>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-          <article>
-            <img src="imagens/symbol1.png" width="200" />
-            <h3>Titulo de exemplo</h3>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt at enim convallis cursus. Duis non dolor arcu. Vestibulum ultricies, urna vel maximus viverra, purus enim ultricies mi, at malesuada lectus turpis quis libero. Nunc eget ornare purus. Duis pulvinar sem sit amet justo ultrices, at ultrices augue sollicitudin. Cras volutpat feugiat ligula. Nulla accumsan arcu id velit posuere, id dictum lorem elementum. Vivamus vulputate urna non felis imperdiet gravida. Sed neque tellus, tempor nec lobortis ut, pretium lacinia sapien. Curabitur nec sem sed nulla lacinia vehicula. Aliquam vulputate volutpat neque quis euismod. In hendrerit nisi sit amet mi dignissim, vitae molestie sem tincidunt.</p>
-
-            <img src="imagens/symbol2.png" width="200" />
-            </article>
-          </td>
-        </tr>
-      
-    </table>
-    <aside height="500">
-      <div>
-        <p>Este é um exemplo de aside</p>
-      </div>
-      
-    </aside>
-    <footer>
-        <div width="200" height="400" align="center">
-          Inscreva-se
-          <input type="text" /> 
-          <input type="button" value="Enviar" />
-        </div>
-    </footer>
-
-
-
-
-
-
-
-  <!--
     <header>
       <div>
-        <img src="images/Logo_TV_2015.png" width="100" />
-        <nav> <a href="webmobile2016.html">Home</a> | <a href="index.html">Index</a>
+        <img src="imagens/TimbreLogo.png" id="header" />
+      </div>
+      <div id="menu">
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
         </nav>
       </div>
-    </header>
+  </header>
 
-    <article>
+  <article id="artigo" class="clear">
+    <img src="imagens/1-luthier-timbre.jpg" alt="Imagem 1" class="imagens" />
+    <h3>Este é um título H3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt at enim convallis cursus. Duis non dolor arcu. Vestibulum ultricies, urna vel maximus viverra, purus enim ultricies mi, at malesuada lectus turpis quis libero. Nunc eget ornare purus. Duis pulvinar sem sit amet justo ultrices, at ultrices augue sollicitudin. Cras volutpat feugiat ligula. Nulla accumsan arcu id velit posuere, id dictum lorem elementum. Vivamus vulputate urna non felis imperdiet gravida. Sed neque tellus, tempor nec lobortis ut, pretium lacinia sapien. Curabitur nec sem sed nulla lacinia vehicula. Aliquam vulputate volutpat neque quis euismod. In hendrerit nisi sit amet mi dignissim, vitae molestie sem tincidunt.</p>
+    <img src="imagens/6-dedicacao-timbre.jpg" alt="Imagem 2" class="imagens" />
+  </article>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, diam vitae molestie facilisis, justo nunc sollicitudin neque, in faucibus mi purus in erat. Cras ac magna ac nisi dapibus fringilla ut eget diam. Ut ornare sapien ut nibh rutrum, eget tempor augue euismod. Sed et urna justo. Nam a tincidunt dui, at imperdiet purus. Praesent eget diam a tellus blandit condimentum eget ac nunc. Integer ut accumsan nunc, venenatis pellentesque lacus. Phasellus non dolor sit amet est posuere pretium. Nam iaculis lacus nec elementum scelerisque. Etiam volutpat aliquam arcu, vitae elementum purus interdum in. Aliquam a magna ex. Donec mattis placerat nisi eu semper. Praesent vitae mi eget felis gravida interdum. Ut convallis lectus leo, at tristique lacus aliquet non. Nulla lacus odio, consectetur ut purus eget, pretium imperdiet nulla. </p>
+  <aside>
+    Isto é um Aside, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt at enim convallis cursus. Duis non dolor arcu.
+  </aside>
 
-      <p>Test</p>
+  <footer>
+    <textarea name="name" rows="1" cols="40"></textarea>
+    <input type="button" name="Enviar" value="Enviar">
+  </footer>
 
-    </article>
-
-    <aside>
-    </aside>
-
-    <footer>
-      <form>
-        <input type="button"> </input>
-      </form>
-    </footer> -->
   </body>
 </html>
