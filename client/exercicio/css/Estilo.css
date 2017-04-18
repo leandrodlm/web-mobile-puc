@@ -1,0 +1,29 @@
+#header {
+  width: 300px;
+  float: left;
+  border: 1px solid red;
+}
+#menu {
+  float: right;
+  margin-right: 20%;
+}
+#artigo {
+  width: 80%;
+}
+.clear {
+  clear: both;
+}
+.imagens {
+  width: 300px;
+}
+h3 {
+  align-content: center;
+}
+article {
+  border: 1px solid red;
+}
+aside {
+  float: left;
+  border: 1px solid red;
+  width: 20%;
+}
