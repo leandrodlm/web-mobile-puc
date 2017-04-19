@@ -1,3 +1,8 @@
+aside {
+  float: left;
+  border: 1px solid red;
+  width: 20%;
+}
 #header {
   width: 300px;
   float: left;
@@ -9,6 +14,7 @@
 }
 #artigo {
   width: 80%;
+  border: 1px solid red;
 }
 .clear {
   clear: both;
@@ -16,14 +22,6 @@
 .imagens {
   width: 300px;
 }
-h3 {
-  align-content: center;
-}
-article {
-  border: 1px solid red;
-}
-aside {
-  float: left;
-  border: 1px solid red;
-  width: 20%;
+.flutuante {
+  display: inline;
 }
